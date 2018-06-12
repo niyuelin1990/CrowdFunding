@@ -29,7 +29,7 @@ web3.personal.unlockAccount(acc0,"123456")
 web3.eth.sendTransaction({from:acc0,to:acc1,value:web3.toWei(3,"ether")})
 web3.eth.getBalance(acc)
 ```
-其他api接口详见Web3-API接口说明文档.pdf(https://github.com/niyuelin1990/CrowdFunding/Web3-API接口说明文档.pdf)
+其他api接口详见Web3-API接口说明文档.pdf(https://github.com/niyuelin1990/CrowdFunding/blob/master/Web3-API接口说明文档.pdf)
 
 
 ## 项目运行
@@ -77,9 +77,7 @@ File -> new -> Module from Existing Sources... -> 选中pom.xml文件 -> 一直n
 ![alt text](docs/1.png "title")
 2. 发送ether
 ![alt text](docs/2.png "title")
-3. 捐赠记录
-![alt text](docs/3.png "title")
-4. 众筹项目
+3. 众筹项目
 ![alt text](docs/4.png "title")
 其它注意：钱包要有钱(支付gas) 记得挖矿 等待确认 ......
 
