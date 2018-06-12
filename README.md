@@ -1,5 +1,6 @@
 # 以太坊众筹系统
-https://github.com/niyuelin1990/CrowdFunding
+众筹系统是基于以太坊solidity书写智能合约，并用基于web3j 开发web应用。
+项目地址：https://github.com/niyuelin1990/CrowdFunding
 
 ## 项目环境
 1. IntelliJ IDEA 2017 
