@@ -68,10 +68,11 @@ Contract mined! address: 0x6777a18e0bc20506ac56ca7d1f870c54480b9dbb transactionH
 File -> new -> Module from Existing Sources... -> 选中pom.xml文件 -> 一直next
 ```
 4.配置 config.properties 数据  同时开发挖矿
-5.启动服务器 http://localhost:8080/crowdfunding/index.html
+
+5.启动服务器 http://localhost:8080/crowdfunding
 
 
-## 项目说明
+## 项目截图
 1. 发起众筹
 ![alt text](docs/1.png "title")
 2. 发送ether
@@ -83,7 +84,7 @@ File -> new -> Module from Existing Sources... -> 选中pom.xml文件 -> 一直n
 其它注意：钱包要有钱(支付gas) 记得挖矿 等待确认 ......
 
 
-## 项目重点
+## 项目目录
 ```
 note:
 src/main/resources/config.properties 配置文件
@@ -106,6 +107,6 @@ help:
 --com.redhat.crowdfunding.controller 控制器
 ----CrowdFundingController.java
 ```
-##参考
+## 参考
 littleredhat1997/CrowdFunding
 https://www.jianshu.com/p/7f9a01271ee7
